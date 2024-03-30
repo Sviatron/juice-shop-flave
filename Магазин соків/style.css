@@ -1,0 +1,194 @@
+body {
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    font-family:Montserrat, sans-serif;
+    font-size: 20px;
+}
+h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    margin: 0 auto ;
+    width: 100%;
+}
+/*header*/
+.header {
+    padding: 41px 0;
+    border-bottom: 2px #779611 solid;
+}
+
+.header-container {
+    display: flex;
+    gap: 120px;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 32px;
+    font-family: "Exo 2", sans-serif;
+    color: #779611;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-right: 120px;
+}
+
+.header-list {
+    display: flex;
+    gap: 80px;
+}
+
+.header-link {
+    color: #707070;
+    font-weight: 500;
+}
+
+/*Перша Секція*/
+.first {
+    border-bottom: 2px #779611 solid;
+}
+
+.first-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-title {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #779611;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.first-text {
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    margin: 50px;
+    margin-left: 100px;
+}
+
+.first-link {
+    display: inline-block;
+    border-radius: 40px;
+    padding: 14px 70px;
+    background-color: #779611;
+    color: #f9f9f9;
+    font-weight: 400;
+    font-size: 32px;
+    margin-left: 100px;
+}
+
+/*Друга та Третя Секція*/
+.second,
+.third {
+    padding-top: 80px;
+}
+
+.second-title,
+.third-title {
+    font-size: 36px;
+    color: #779611;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    margin-bottom: 35px;
+    margin-left: 100px;
+}
+
+.second-text,
+.third-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.second-list,
+.third-list {
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+}
+.second-desc,
+.third-desc {
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 60px 0 15px 60px;
+}
+.second-price,
+.third-price {
+    margin-left: 60px;
+}
+.third {
+    padding-bottom: 80px;
+}
+.second-img,
+.third-img {
+    width: 378px;
+    height: auto;
+}
+
+/*4 Секція*/
+.about {
+    border-top: solid #779611 2px;
+    border-bottom: solid #779611 2px;
+    padding: 114px 0;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 455px;
+
+}
+.about-Us {
+    color: #779611;
+    font-size: 24px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 500;
+    margin-left: 60px;
+}
+.about-title {
+    color: #779611;
+    font-size: 48px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    margin-left: 60px;
+}
+.about-desc {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    margin-left: 60px;
+}
+
+/*footer*/
+.footer {
+    padding: 60px 0;
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-title,
+.footer-link {
+    font-size: 20px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 20px;
+    display: inline-block;
+}
